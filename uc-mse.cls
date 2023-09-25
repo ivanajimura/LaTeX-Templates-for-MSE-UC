@@ -43,19 +43,19 @@
     \RequirePackage{multicol,listings}
 %%%Colors. Documentation: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
 \RequirePackage[dvipsnames]{xcolor}
-\definecolor{beautiful-teal}{RGB}{0,128,128}
+\definecolor{mycolor}{RGB}{0,128,128} %RGB (0,128,128) is teal
 %%%Math Mode
 \RequirePackage{amsmath}
 %%% Hyperlinks. Documentation: https://www.overleaf.com/learn/latex/Hyperlinks
 \RequirePackage{hyperref}
     \hypersetup{
         colorlinks=true,
-        linkcolor=beautiful-teal,
-        filecolor=beautiful-teal,      
-        urlcolor=beautiful-teal,
+        linkcolor=mycolor,
+        filecolor=mycolor,      
+        urlcolor=mycolor,
         pdftitle={Overleaf Example},
         pdfpagemode=FullScreen,
-        citecolor=beautiful-teal,
+        citecolor=mycolor,
     }
 
 \RequirePackage{natbib}
@@ -70,4 +70,4 @@
 \onehalfspacing
 %Highlight items
 
-\newcommand{\highlight}[1]{\textcolor{beautiful-teal}{#1}}
+\newcommand{\highlight}[1]{\textcolor{mycolor}{#1}}
