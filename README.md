@@ -15,3 +15,6 @@ Use main.tex to create your document.
 
 - [@ivanajimura](https://github.com/ivanajimura/)
 
+## Contributors
+
+- Jéssica Mendes
