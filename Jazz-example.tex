@@ -1,0 +1,235 @@
+\documentclass{linghandout}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\sfut}{\textsc{SFut}\xspace}
+
+\title{Future interpretation `without' future morphology}
+\author{Jéssica + Aron (meeting \#1)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{The project}
+
+Some environments give rise to a non-scheduled future reading without \textit{will} or \textit{going to}. I don't really have a name for the phenomenon, so I've been calling it \textbf{future-oriented present (FOP)}, but this terminology is inaccurate\textemdash in some languages, you don't see \textsc{pres} morphology.
+
+\pex\label{finite} 
+\a\label{pred}If \textit{John wins the election}, Mary will be angry.\hfill [conditional antecedents]
+\a Every politician \textit{who wins the election} will have to go through a background check.\hfill [some RCs]
+\a When \textit{John wins the election}, Mary will be angry.\hfill [\textit{when}-clauses]
+\a $\ldots$\footnote{This is a very sloppy presentation, if we were going to discuss the distribution of this phenomenon more seriously, we would have to control for the presence of \textit{will} in the sentence. In some cases, it seems that this future-oriented present is only conditionally licensed if \textit{will} is in the sentence.}
+\xe
+
+\ex\ljudge{*}John wins the election.\hfill [matrix clauses]\xe
+
+%\pex\label{nonfinite} 
+%\a John has \textit{to win the election}.\hfill [under some modals]
+%\a John hopes \textit{to win the election}.\hfill [under some attitude verbs]
+%\xe
+
+I've been breaking down the project into three parts, but this division is somewhat artificial:
+
+\begin{description}
+    \item[The syntactic question] What's the LF of the FOP?
+    \begin{itemize}
+        \item Does it involve a \textsc{non-past}, \textsc{pres} + a covert forward-shifting morpheme, a deleted \textit{will}, or something else?
+        \item A related question: how much in common does FOP have with future-oriented non-finite complements (i.e. modal complements, a.o.).
+    \end{itemize}
+    \item[The semantic question] What does the FOP mean?
+    \begin{itemize}
+        \item Is it purely temporal, or does it involve a layer of modality too? 
+        \item How should each of these elements be analyzed?
+    \end{itemize}
+    \item[The distributional question] Why is the FOP restricted to some environments?
+    \begin{itemize}
+        \item I started from this question, but eventually I realized that it depends on the answer to the others.
+        \item The received wisdom is that the FOP has a restricted distribution because of pragmatic principles regulating future reference. I think we should at least make an attempt to treat it as a case of polarity sensitivity.
+    \end{itemize}
+\end{description}
+
+\section{The syntactic question}
+
+\subsection{Previous approaches}
+
+\paragraph{Approach \#1: FOP is a tense}A few authors treat the subjunctive future as a \textbf{\textsc{non-past}} \citep{schulz2008non,kaufmann2005conditional}. For these authors, predictive conditionals like \eqref{pred} belong in the same category as other indicative conditionals, like \eqref{ind}.
+
+\ex\label{ind}If John won the election, Mary got angry.
+\xe
+
+\paragraph{Approach \#2: FOP is \textit{will}}The earlier literature treated the FOP as a \textbf{deleted \textit{will}} \citep{mccawley1971tense, comrie1985tense}. For them, \eqref{pred} is equivalent to \eqref{willcon}.
+
+\ex\label{willcon}If John will win the election, Mary will get angry.
+\xe
+
+\paragraph{Approach \#3: FOP is aspect}In a more recent paper, \cite{williamson2021worlds} argues that the FOP is \textsc{pres + fut}, where \textsc{fut} is a \textbf{covert aspectual operator} (similar to \textsc{perf}). For him, \eqref{pred} is not the same as \eqref{ind} or \eqref{willcon}. Rather, it's the mirror image of \eqref{perf}.
+
+\ex\label{perf}If John has gone to the party, Mary got angry.\xe
+
+\subsection{My approach}
+
+\begin{fancybox}{}
+    The future-oriented present is a subjunctive future. That is, it has more in common with counterfactuals than with indicative conditionals.
+\end{fancybox}
+
+%I wanna argue that \eqref{pred} has more in common with subjunctive conditionals (i.e.: counterfactuals) than with \eqref{ind} or \eqref{willcon}.
+
+%\ex\label{counter}If John went to the party, Mary would be happy.\xe
+
+Here are some raw arguments to support this view. My plan is to flesh out these arguments, hopefully before the SALT deadline.
+
+\paragraph{Argument \#1: morphological} In Brazilian Portuguese (BrP), to my knowledge, the only Romance language that retained a productive Subjunctive Future (\textsc{SFut}), \textsc{SFut} morphology appears in roughly the same environments where English licenses the FOP.
+
+\ex\label{brp1}
+\begingl 
+\gla Se o João \textbf{for} \`{a} festa, a Maria pode ir também.//
+\glb if the John \textbf{go.\textsc{subj.fut}} to.the party, the Mary might go too//
+\glft `If John goes to the party, Mary might go too.'//
+\endgl
+\xe 
+
+Crucially, the \sfut does not mean the same as the present. We can create minimal pairs with them.
+
+\pex
+\a\label{minsf}
+\begingl 
+\gla Se o João \textbf{viajar} pra Europa, a Maria deve ir também.//
+\glb if the John \textbf{travel.\textsc{subj.fut}} to.the Europe, the Mary {is likely to} go too//
+\glft `If John travels to Europe, Mary is likely to go too.'//
+\endgl
+\a\label{minpres}
+\begingl 
+\gla Se o João \textbf{viaja} pra Europa, a Maria deve ir também.//
+\glb if the John \textbf{travel.\textsc{ind.pres}} to.the Europe, the Mary {is likely to} go too//
+\glft `If John travels to Europe (habitually), Mary is likely to go too.'//
+\endgl
+\xe 
+
+Example \eqref{minsf}, with the \sfut, is interpreted as a predictive conditional. \eqref{minpres}, with the \textsc{pres}, is interpreted as an epistemic conditional.
+
+\begin{fancybox}{}
+I need to prove that (1) the label `subjunctive future' is not misleading; (2) what's happening in BrP is also happening in English. I've been struggling with how to organize this argument.
+\end{fancybox}
+
+\paragraph{Argument \#2: clausal embedding} In many languages, \textit{if}-clauses can serve as embedded polar questions. It seems that this is only possible with \textit{indicative conditionals}. In this respect, FOP patterns with counterfactuals. 
+
+\textbf{Note:} This is extremely difficult/impossible to see in English. You have to try really hard to block a scheduled reading of the present.
+
+\pex 
+\a\ljudge{?}I don't know whether John is elected (next year).\hfill [FOP]
+\a\ljudge{?}I don't know whether John were elected (next year).\hfill [Counterfactual]
+\xe
+
+\pex 
+\a\ljudge{?}I wonder whether John is elected (next year).\hfill [FOP]
+\a\ljudge{?}I wonder whether John were elected (next year).\hfill [Counterfactual]
+\xe
+
+\pex 
+\a I don't know whether John is home (now).\hfill [Indicative present]
+\a I don't know whether John was elected.\hfill [Indicative past]
+\a I don't know whether John will be elected.\hfill [\textit{will}]
+\xe
+
+\pex 
+\a I wonder whether John is home (now).\hfill [Indicative present]
+\a I wonder whether John was elected.\hfill [Indicative past]
+\a I wonder whether John will be elected.\hfill [\textit{will}]
+\xe
+
+In BrP, the contrast is extremely clear.
+
+\pex 
+\a\ljudge{*}\begingl 
+\gla Eu não sei se o João \textbf{for} eleito.//
+\glb I \textsc{neg} know whether the João \textbf{be.\sfut} elected//
+\glft `I don't know whether John is elected (in the future).'\hfill [FOP]//
+\endgl
+\a\ljudge{*}\begingl 
+\gla Eu não sei se o João \textbf{fosse} eleito.//
+\glb I \textsc{neg} know whether the João \textbf{be.\textsc{SPast}} elected//
+\glft `I don't know whether John were elected (in the future).'\hfill [Counterfactual]//
+\endgl
+\xe
+
+\pex 
+\a\begingl 
+\gla Eu não sei se o João está em casa.//
+\glb I \textsc{neg} know whether the João \textbf{be.\textsc{ind.pres}} at home//
+\glft `I don't know whether John is home.'\hfill [Indicative present]//
+\endgl
+\a\begingl 
+\gla Eu não sei se o João estava em casa.//
+\glb I \textsc{neg} know whether the João \textbf{be.\textsc{ind.past}} at home//
+\glft `I don't know whether John was home.'\hfill [Indicative past]//
+\endgl
+\a\begingl 
+\gla Eu não sei se o João vai estar em casa.//
+\glb I \textsc{neg} know whether the João will be home//
+\glft `I don't know whether John will be home.'\hfill [\textit{Will}]//
+\endgl
+\xe
+
+\begin{fancybox}{}
+I don't know much about clausal embedding, so I don't know how to explain these facts, or even if they are trite.
+\end{fancybox}
+
+\paragraph{Argument \#3: inversions???} This is extremely handwavy, and also a very weak argument, but I \textit{think} only subjunctive if-clauses allow inversions.
+
+\pex
+\a If John had come to the party, Mary would've been happy.\hfill [Counterfactual]
+\a Had John come to the party, Mary would've been happy.
+\xe 
+
+\pex
+\a If you need any help, let me know.\hfill [FOP]
+\a Should you need any help, let me know.
+\xe 
+
+\pex 
+\a If John is home (now), Mary is home too.\hfill [Indicative present]
+\a\ljudge{?}Should John be home (now), Mary is home too.
+\xe 
+
+\pex 
+\a If John left, Mary left too.\hfill [Indicative past]
+\a\ljudge{?}Had John left, Mary left too.
+\xe 
+
+\begin{fancybox}{}
+I like this argument because I know there is a bit of literature on the relation between I-to-C movement and the subjunctive. \textit{But} the judgments are subtle, and this kind of inversion is just really unusual anyway. I don't know if any reviewers would take it seriously.
+\end{fancybox}
+
+\section{The semantic question}
+
+\textbf{Note:} I don't think any authors have investigated the semantic question with any systematicity. So it's a bit unfair to compare my `proposal' to theirs.
+
+\begin{fancybox}{}
+    The future-oriented present/subjunctive future invokes modal displacement, in addition to temporal displacement. %In terms of modal force, I believe it should be modeled as an indefinite.
+\end{fancybox}
+
+\paragraph{Evidence} The \sfut in relative clauses seems to block a specific reading of the modified noun.
+
+\pex 
+\a Every student who gets an offer from our department (next year) will be fully funded.
+\a $\not\leadsto$ We know which students will get an offer.
+\xe 
+
+\pex 
+\a Every student who will get an offer from our department (next year) will be fully funded.
+\a $\leadsto$ We know which students will get an offer.
+\xe 
+
+In contexts that require a specific reading of the noun, the \sfut is infelicitous.
+
+\pex\textbf{Context:} You're throwing a dinner party. Among the people who RSVP'd, everyone is a vegan. 
+\a\ljudge{$\#$}Everyone who comes to the part is a vegan.
+\a Everyone who will come to the party is a vegan.
+\xe 
+
+
+
+\bibliography{phd.bib}
+\bibliographystyle{chicago}
+
+\end{document}
