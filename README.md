@@ -9,6 +9,8 @@ Document templates to be used in the written assignments for the Masters in Soft
 Use main.tex to create your document.
 - Use \documentclass{uc-mse} for a generic article with numbered lines
 - Use \documentclass{gds-case-study} for a case study document.
+- - Use \documentclass{gds-review} for the IEEE two-column format for
+conference proceeding required for the review (Project Management course)
 - The folder /example contains examples of the commands and document classes
 
 ## Author
