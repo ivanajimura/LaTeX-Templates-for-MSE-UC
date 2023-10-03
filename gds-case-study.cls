@@ -16,7 +16,7 @@
 %%%Languages this document will require
 \RequirePackage[english]{babel}
 %%% Font with better support for accents and special characters
-\RequirePackage{lmodern}
+\RequirePackage{libertinus}
 %%%Hyphenation in Portuguese
 \RequirePackage{hyphenat}
 %%%Display images
