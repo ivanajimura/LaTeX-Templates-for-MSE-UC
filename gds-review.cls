@@ -6261,7 +6261,8 @@ Use \@IEEEbackslash #2 instead.}}
 \definecolor{beautiful-teal}{RGB}{0,128,128}
 %%%Highlight items using teal
 \newcommand{\highlight}[1]{\textcolor{beautiful-teal}{#1}}
-
+%%%Allows importing documents for better organization
+\RequirePackage{import}
 
 
 
